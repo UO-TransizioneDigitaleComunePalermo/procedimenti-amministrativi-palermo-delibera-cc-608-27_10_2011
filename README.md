@@ -2,6 +2,7 @@
 
 # `Catalogo` delle attività relative ai procedimenti amministrativi del comune di Palermo di cui alla Delibera di Consiglio Comunale n. 608 del 27.10.2011
 
+`DELIBERA DI C.C. n. 608 del 27.10.2011:"APPROVAZIONE REGOLAMENTO DISCIPLINA DEI PROCEDIMENTI AMMINISTRATIVI DEL COMUNE DI PALERMO"`
 
 Il lavoro per la visualizzazione delle informazioni su questa piattaforma è stato realizzato nel gennaio 2021 da **Ciro Spataro**, **Anna La Rocca** e **Sergio Schimicci** dell'**U.O. Transizione al digitale**, Servizio Innovazione, Settore Servizi Direzione Generale, per permettere una agevole consultazione delle informazioni sulle attività dei procedimenti amministrativi.
 
