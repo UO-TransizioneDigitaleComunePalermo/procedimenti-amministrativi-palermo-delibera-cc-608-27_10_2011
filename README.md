@@ -1,13 +1,12 @@
 ![image](https://raw.githubusercontent.com/UO-TransizioneDigitaleComunePalermo/procedimenti-amministrativi-comunepalermo/gh-pages/img/comune-palermo-innovazione.png)
 
-# `Catalogo` delle attività relative ai procedimenti amministrativi del comune di Palermo
+# `Catalogo` delle attività relative ai procedimenti amministrativi del comune di Palermo di cui alla Delibera di Consiglio Comunale n. 608 del 27.10.2011
 
-Le informazioni esposte nel catalogo derivano dalla ricognizione dei procedimenti effettuate dagli uffici comunali nel dicembre 2020 (nota 1319949 del 18.11.2020 del Segretario Generale: assegnazione ai dirigenti dell'obiettivo di redigere schede con la descrizione dei procedimenti amministrativi di competenza). Il responsabile del procedimento ha inserito le informazioni nella scheda. Ogni procedimento rimanda alla scheda compilata dal responsabile. Nella scheda è possibile leggere le informazioni generali sul procedimento (metadati) e le fasi di attuazione.
 
-Il lavoro per la visualizzazione delle informazioni su questa piattaforma è stato realizzato nel gennaio 2021 da **Ciro Spataro** e **Sergio Schimicci** dell'**U.O. Transizione al digitale**, Servizio Innovazione, Settore Servizi Direzione Generale, per permettere una agevole consultazione delle informazioni sulle attività dei procedimenti amministrativi.
+Il lavoro per la visualizzazione delle informazioni su questa piattaforma è stato realizzato nel gennaio 2021 da **Ciro Spataro**, **Anna La Rocca** e **Sergio Schimicci** dell'**U.O. Transizione al digitale**, Servizio Innovazione, Settore Servizi Direzione Generale, per permettere una agevole consultazione delle informazioni sulle attività dei procedimenti amministrativi.
 
 ## `Catalogo` online 
-Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/)
+Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-palermo-delibera-cc-608-27_10_2011](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-palermo-delibera-cc-608-27_10_2011)
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
 - [**Simile Exhibit**](http://www.simile-widgets.org/exhibit3/), per realizzare l'interfaccia di navigazione del catalogo;
