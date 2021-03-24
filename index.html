@@ -37,7 +37,7 @@
 
     <link rel="exhibit/data" 
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1EgbulRESoJhV-5k5LwwBJOopjD4RRtVbiFPfILJML0I/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1Ox3YpbVrea0lWvJVbi_vy1fCg37DwpQYncs6fV7XMN4/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -102,13 +102,9 @@
 
 					
 			<div class="col-md-12 column">
-			<h3>Consultazione delle attività relative ai procedimenti amministrativi comunali</h3></p>
-			Le informazioni esposte nel catalogo derivano dalla ricognizione dei procedimenti effettuate dagli uffici comunali nel dicembre 2020 
-			(nota 1319949 del 18.11.2020 del Segretario Generale: assegnazione ai dirigenti dell'obiettivo di redigere schede con la descrizione dei procedimenti amministrativi 
-			di competenza). 
+			<h3>Consultazione delle attività relative ai procedimenti amministrativi comunali (delibera-cc-608-27_10_2011)</h3></p>
+			Procedimenti di cui alla Deliberazione di Consiglio Comunale n. 608 del 27.10.2011 
 			<br>
-			Ogni procedimento rimanda alla scheda compilata dal responsabile. Nella scheda è possibile leggere le informazioni generali sul procedimento (metadati) e le fasi di attuazione.
-		        <br> 
 			Il lavoro per la visualizzazione delle informazioni su questa piattaforma è stato realizzato da <code>Ciro Spataro</code> e <code>Sergio Schimicci</code> dell'U.O. Transizione al digitale, Servizio Innovazione, Settore Servizi Direzione Generale.
 			</p>
 			</div>
@@ -140,9 +136,10 @@
 			<div class="col-md-7 column">
 				<div ex:role="facet" 
 				ex:facetClass="Cloud"
-				ex:expression=".area" 
-				ex:facetLabel="area"
+				ex:expression=".attivita" 
+				ex:facetLabel="attivita"
 				ex:sortMode="count"></div>
+			<!--
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
@@ -150,12 +147,12 @@
 				ex:facetLabel="lavoro agile"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count"></div>
-			
+			-->
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".servizio" 
-				ex:facetLabel="servizio"
+				ex:expression=".attivita" 
+				ex:facetLabel="attivita"
 				ex:missingLabel="altro"
 				ex:sortMode="count">
 				</div>
@@ -170,10 +167,10 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".denominazione_procedimento,.area,.servizio,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.rif"  
-					ex:columnLabels="procedimento, area, servizio, lavoro agile, email, telefono, rif" 
-					ex:columnFormats="list,list,list,list,list,list,list"
-					ex:sortColumn="7"
+					ex:columns=".attivita,.descrizione_procedimento,.termine_conclusione,.rif"  
+					ex:columnLabels="attivita, descrizione_procedimento, termine_conclusione, rif" 
+					ex:columnFormats="list,list,list,list"
+					ex:sortColumn="4"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
@@ -181,12 +178,10 @@
 							<table class="table">
 								<tr>
 									<!-- <td><strong><span ex:content=".area"></strong></td> -->
-									<td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('{{.link_scheda}}'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".area"></td>
-									<td><span ex:content=".servizio"></span></td>
-									<td><span ex:content=".lavoro_agile"></span></td>
-									<td><span ex:content=".email_responsabile_procedimento"></span></td>
-									<td><span ex:content=".telefono_info"></span></td>
+									<!-- <td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('{{.link_scheda}}'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td> -->
+									<td><span ex:content=".attivita"></td>
+									<td><span ex:content=".descrizione_procedimento"></span></td>
+									<td><span ex:content=".termine_conclusione"></span></td>
 									<td><span ex:content=".rif"></span></td>
 									<!-- <td><span ex:content=".link_scheda"></span></td> -->
 								</tr>
