@@ -35,10 +35,10 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
-    <link rel="exhibit/data" 
-    type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1Ox3YpbVrea0lWvJVbi_vy1fCg37DwpQYncs6fV7XMN4/od6/public/basic?alt=json-in-script"
-    ex:converter="googleSpreadsheets" />
+    <link rel="exhibit/data"
+    ex:valueSeparator="|"
+    type="text/csv"
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeCu4On06IJtuwILLzJzknEhKq8rwf4Bf5vDnrRdLS7KdmtlKh86Kh3d-AEpnLkwF9-67CRtQim22k/pub?gid=0&single=true&output=csv"     />
 
 
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
@@ -183,7 +183,7 @@
 							<table class="table">
 								<tr>
 									<!-- <td><strong><span ex:content=".area"></strong></td> -->
-									<!-- <td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('{{.link_scheda}}'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td> -->
+									<!-- <td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('.link_scheda'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td> -->
 									<td><span ex:content=".attivita"></td>
 									<td><span ex:content=".descrizione_procedimento"></span></td>
 									<td><span ex:content=".termine_conclusione"></span></td>
